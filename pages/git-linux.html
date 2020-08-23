@@ -56,7 +56,7 @@ Social Media Mining (Z639)            </a>
                              Guidelines
                           </a></li>
                          <li><a href="/pages/python-linux.html">
-                             Using Python on IU Linux Computers
+                             Using Python on Luddy Linux Servers
                           </a></li>
                          <li><a href="/pages/git-first-assignment.html">
                              Using Git for the first assignment
@@ -86,11 +86,11 @@ remote git server (e.g., Gitlab or Github).  The following assumes you have read
 Linux Computers</a> and have superficial knowledge of how to use <code>git</code>.</p>
 <h1>Cloning a remote repository</h1>
 <p>You can create a copy of a remote repository locally using <code>git clone</code>. To clone assignment 2 from Github you would type something resembling:</p>
-<div class="highlight"><pre><span></span>git clone https://github.com/z639-fall/assignment2-myusername.git
+<div class="highlight"><pre><span></span>git clone https://github.com/z639-2020/assignment2-myusername.git
 </pre></div>
 
 
-<p>You will be prompted for your username and password. If entering your username and password gets tiring, you can run this command once: <code>git config --global credential.helper store</code>. (Experienced Linux users may wish to <a href="https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-ssh-urls">setup SSH authentication</a>).</p>
+<p>You will be prompted for your username and password. If entering your username and password gets tiring, you can run this command once: <code>git config --global credential.helper store</code>. (Experienced users may wish to <a href="https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-ssh-urls">setup SSH authentication</a>).</p>
 <h1>Making changes to a file</h1>
 <p><em>Note: you can always type <code>git status</code> to see what changes, if any, are pending.</em></p>
 <p>Text files may be edited using any one of the standard text editors such as <code>nano</code>, <code>vi</code>, or <code>emacs</code>.  (You can also edit files offline and upload them using <code>sftp</code>.)</p>
@@ -104,14 +104,6 @@ git commit
 of your changes.</p>
 <h1>Pushing your changes to the remote repository</h1>
 <p>Tell the remote repository about your committed changes by using <code>git push</code>.</p>
-<h1>Using a newer version of git</h1>
-<p>The IU servers tend to use older versions of git and python. If something with git does not work you may wish to use a newer version of git. To enable a newer version of git run the following:</p>
-<div class="highlight"><pre><span></span>module load git
-</pre></div>
-
-
-<p>You can add this command to your <code>.bashrc</code> to run this command automatically every time you log in.
-(Commands in your <code>.bashrc</code> are executed when you log in.)</p>
         </div>
     </section>
         </div>
